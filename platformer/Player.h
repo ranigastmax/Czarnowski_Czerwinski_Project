@@ -7,7 +7,7 @@
 #include<vector>
 #include<SFML/Graphics.hpp>
 
-
+// wypychanie github
 class Player
 {
 	// #region textures_and_intrects
