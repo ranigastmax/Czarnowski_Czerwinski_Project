@@ -7,6 +7,11 @@
 #include<vector>
 #include<SFML/Graphics.hpp>
 
+//niesamowite!!!!!!
+//jest swietnie
+//kocham gitHub!
+//dodaje komentarz :D
+//pelna kultura
 // wypychanie github
 class Player
 {
