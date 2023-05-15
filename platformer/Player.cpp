@@ -1,16 +1,17 @@
 #include "Player.h"
 
-void loadTexture(std::string path, sf::Texture& textureName, sf::Sprite& spriteName)
+
+
+
+
+
+void Player::loadTexture(std::string path, sf::Texture& textureName, sf::Sprite& spriteName)
 {
     if (!textureName.loadFromFile(path)) {
         std::cerr << "Could not load texture" << std::endl;
     }
     spriteName.setTexture(textureName);
 }
-
-
-
-
 
 Player::Player()
 {
@@ -47,7 +48,7 @@ void Player::animateWalk()
 {
 
 //walk left
-	s
+	
 
 //walk right
 
@@ -80,4 +81,8 @@ void Player::animateAttackDistance()
 
 //attack up-left-rigt
 
+}
+
+void Player::animateDeath()
+{
 }
